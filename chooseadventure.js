@@ -46,6 +46,8 @@ function draw(){
   // background(117, 158, 237)
   }
 
+
+//THIS RUNS FIRST, SELECTING THE CHARACTER
 function mousePressed(){
       var skull = dist(mouseX,mouseY, width/1.7,height/2)
       var alien = dist(mouseX,mouseY, width/2,height/2)
@@ -94,6 +96,7 @@ function createCharacter(){
     startVs()
   }
 }
+
 function startVs(){
   // var vs1 = (random(disasters))
   // var vs2 = (random(encounters))
